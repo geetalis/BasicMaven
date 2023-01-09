@@ -17,7 +17,7 @@ public class GreeterTest {
         public void greetShouldIncludeTheOneBeingGreeted() {
             String someone = "World";
 
-            Assert.assertEquals(greeter.greet(someone), "Hello, "+someone);
+            Assert.assertEquals(greeter.greet(someone), "Hello, "+someone+"!");
         }
 
         @Test
